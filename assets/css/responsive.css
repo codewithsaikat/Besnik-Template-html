@@ -1,0 +1,45 @@
+@media only screen and (min-width: 1800px) and (max-width: 2000px) {
+    
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1800px) {
+
+   
+
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
+   
+
+}
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+   
+
+}
+
+/*Medium small layout: 767px. */
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+   
+
+
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+    
+
+}
