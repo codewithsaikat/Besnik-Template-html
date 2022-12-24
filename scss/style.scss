@@ -49,7 +49,7 @@ textarea:focus {
 // header-area
 
 .header-bg {
-  background-color: #ddb8b8;
+  background-color: #e2dede;
   z-index: -5;
   position: relative;
   height: 560px;
@@ -122,9 +122,6 @@ textarea:focus {
 
 }
 
-
-// search-box
-
 //  SEARCH-BOX
 
 .hero-section {
@@ -144,9 +141,9 @@ textarea:focus {
     border-right: solid 2px rgba(0, 0, 0, 0.10);
   }
 
-  .d-grid {
-    gap: 20px;
-  }
+  // .d-grid {
+  //   gap: 20px;
+  // }
 
   .searchbox {
    
@@ -215,3 +212,27 @@ textarea:focus {
 
 
 }
+
+// column and icons
+
+.section-padding {
+  padding-top: 200px;
+  
+
+  .card {
+    border: none;
+    background-color: transparent;
+  }
+  .img-ico {
+    margin-top: -40px;
+  }
+  h3 {
+    margin-bottom: 20px;
+  }
+
+} 
+
+
+ 
+
+  
