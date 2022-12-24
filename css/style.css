@@ -34,10 +34,7 @@ textarea:focus {
 }
 
 .header-bg {
-  background-color: #e2dede;
-  z-index: -5;
   position: relative;
-  height: 560px;
 }
 
 .header-area {

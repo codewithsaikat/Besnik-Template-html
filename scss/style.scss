@@ -49,10 +49,9 @@ textarea:focus {
 // header-area
 
 .header-bg {
-  background-color: #e2dede;
-  z-index: -5;
+  
   position: relative;
-  height: 560px;
+  
 }
 
 .header-area {
@@ -134,8 +133,6 @@ textarea:focus {
     margin-bottom: 0;
 
   }
-
-  
 
   .search-area {
     border-right: solid 2px rgba(0, 0, 0, 0.10);
