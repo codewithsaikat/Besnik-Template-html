@@ -152,7 +152,7 @@ textarea:focus {
   border: none;
 }
 
-.section-padding {
+.section-padding .icons {
   padding-top: 50px;
   padding-bottom: 85px;
 }
@@ -206,7 +206,7 @@ textarea:focus {
 }
 
 .multi-slider {
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   /* Slider */
   /* Icons */
   /* ************************************************************* */
@@ -222,7 +222,7 @@ textarea:focus {
 .multi-slider h4 {
   position: relative;
   color: #3498db;
-  text-align: center;
+  text-align: start;
   padding: 20px 0px;
   margin: 0.5rem;
 }
@@ -232,6 +232,7 @@ textarea:focus {
   line-height: 21px;
   font-weight: 500;
   white-space: nowrap;
+  text-align: start;
 }
 .multi-slider .slick-slide.is-active h4 {
   color: #c00;
@@ -255,7 +256,7 @@ textarea:focus {
   display: block;
 }
 .multi-slider .cSlider--single {
-  margin-right: -250px;
+  margin-right: -200px;
 }
 .multi-slider .prev-arrow-Custom {
   right: 250px;
@@ -270,7 +271,7 @@ textarea:focus {
   z-index: 999;
 }
 .multi-slider .next-arrow-Custom {
-  right: 350px;
+  right: 400px;
   position: absolute;
   z-index: 1000;
   top: -120px;
@@ -319,7 +320,7 @@ textarea:focus {
 }
 #featured-box .shape-child img {
   position: absolute;
-  top: -160px;
+  top: -135px;
   left: -160px;
   box-shadow: 48px 58px 86px rgba(0, 0, 0, 0.009);
 }
@@ -379,6 +380,32 @@ textarea:focus {
   line-height: 21px;
   color: #FFFFFF;
   margin-top: -10px;
+}
+
+.testimonial {
+  padding: 25px 70px 100px;
+}
+.testimonial h3 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 55px;
+}
+.testimonial .single-testimonial-item {
+  padding: 43px 40px;
+  border: 1px solid #EBEBEB;
+  text-align: center;
+  margin: 0px 15px;
+  height: 352px;
+  width: 300px;
+  min-width: 300px;
+  flex: 20%;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
