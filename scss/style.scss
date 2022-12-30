@@ -556,7 +556,7 @@ textarea:focus {
 
 .testimonial {
 
-  padding: 25px 70px 100px;
+  padding: 100px 70px 100px;
   h3 {
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
@@ -565,20 +565,63 @@ textarea:focus {
   }
   .single-testimonial-item {
     // background: rgb(255, 255, 255);
-    padding: 43px 40px;
+    padding: 50px 40px 0px;
     border: 1px solid #EBEBEB;
     text-align: center;
-    margin: 0px 15px;
-    height: 352px;
+    margin: 0px 15px; 
     width: 300px;
     min-width: 300px;
     flex: 20%;
     margin-top: 20px;
     border-radius: 10px;
-    background-repeat: no-repeat;
-    background-size: cover;
     object-fit: contain;
     position: relative;
+    transition: box-shadow .3s;
+
+    &:hover {
+      cursor: pointer;
+      border: none; 
+      box-shadow: 3px 44px 108px rgb(0,0,0,8%);
+
+      
+     
+    }
+
+  }
+
+  .text-start {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-top: 22px;
+  }
+
+  .img-info {
+    padding-top: 26px;
+    padding-bottom: 35px;
+
+    img {
+      height: 50px;
+      width: 50px;
+    }
+
+    .info {
+      h5 {
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 500;
+        margin-bottom: 0px;
+
+      }
+      p {
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+      }
+    }
   }
 
 }

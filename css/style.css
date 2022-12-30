@@ -383,7 +383,7 @@ textarea:focus {
 }
 
 .testimonial {
-  padding: 25px 70px 100px;
+  padding: 100px 70px 100px;
 }
 .testimonial h3 {
   font-family: "Manrope", sans-serif;
@@ -392,20 +392,51 @@ textarea:focus {
   line-height: 55px;
 }
 .testimonial .single-testimonial-item {
-  padding: 43px 40px;
+  padding: 50px 40px 0px;
   border: 1px solid #EBEBEB;
   text-align: center;
   margin: 0px 15px;
-  height: 352px;
   width: 300px;
   min-width: 300px;
   flex: 20%;
   margin-top: 20px;
   border-radius: 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
   object-fit: contain;
   position: relative;
+  transition: box-shadow 0.3s;
+}
+.testimonial .single-testimonial-item:hover {
+  cursor: pointer;
+  border: none;
+  box-shadow: 3px 44px 108px rgba(0, 0, 0, 0.08);
+}
+.testimonial .text-start {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-top: 22px;
+}
+.testimonial .img-info {
+  padding-top: 26px;
+  padding-bottom: 35px;
+}
+.testimonial .img-info img {
+  height: 50px;
+  width: 50px;
+}
+.testimonial .img-info .info h5 {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.testimonial .img-info .info p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
 }
 
 /*# sourceMappingURL=style.css.map */
