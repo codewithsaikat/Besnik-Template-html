@@ -296,8 +296,7 @@ textarea:focus {
 
 
 .multi-slider {
-  padding: 0px 50px
-  150px;
+  padding: 0px 50px 150px;
 
   h3 {
     padding-bottom: 46px;
@@ -317,11 +316,12 @@ textarea:focus {
     font-size: 18px;
     font-weight: 500;
     line-height: 21px;
-   
+
   }
 
   .slick-slide.is-active h4 {
     color: #c00;
+
     span {
       font-size: 18px;
       font-family: 'Inter', sans-serif;
@@ -329,11 +329,11 @@ textarea:focus {
       font-weight: 600;
       white-space: nowrap;
       text-align: start;
-       display: inline-block;
+      display: inline-block;
       // margin: 0 0.5rem;
       animation: backInUp;
       animation-duration: 3s;
-      --animate-repeat:infinite; 
+      --animate-repeat: infinite;
     }
 
   }
@@ -399,10 +399,11 @@ textarea:focus {
 
   .cSlider--single {
     margin-right: -200px;
+
     .cSlider__item {
       display: inline-block;
       margin: 0 0.5rem;
-      --animate__infinite:	infinite;
+      --animate__infinite: infinite;
       animation: backInUp;
       animation-duration: 3s;
       --animate-repeat: infinite;
@@ -481,11 +482,11 @@ textarea:focus {
     span {
       position: absolute;
       top: 50%;
-      
+
     }
   }
 
- 
+
 
 }
 
@@ -675,12 +676,25 @@ textarea:focus {
 
 
 .multi-slider--2 {
-  padding-top: 120px;
-  padding-bottom: 215px;
+  padding: 120px 110px 215px;
 
+  .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    // padding: 0px 40px;
+    // margin-left: -38px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+    
+  }
+  .slider-top-left {
+    // margin-left: -40px;
+  }
+  
   h3 {
     padding-bottom: 5px;
-    padding-left: 0px;
+    // padding-left: 40px;
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
     font-size: 40px;
@@ -730,9 +744,7 @@ textarea:focus {
       // margin: 0 0.5rem;
       animation: backInRight;
       animation-duration: 3s;
-      --animate-repeat:infinite 
-
-
+      --animate-repeat: infinite
     }
 
   }
@@ -838,12 +850,12 @@ textarea:focus {
     margin: 0.5rem;
 
     .cSlider--single-2 {
-    
+
       .cSlider__item {
         display: inline-block;
         gap: 0px 10px;
         margin-right: 20px;
-        --animate__infinite:	infinite;
+        --animate__infinite: infinite;
         animation: animate__backOutLeft;
         animation-duration: 3s;
         --animate-repeat: infinite;
@@ -907,8 +919,83 @@ textarea:focus {
     background-color: #F85A47;
     color: #FFFFFF;
     padding: 10px 30px;
-    margin-right: 68px;
+    margin-right: 90px;
   }
 
+
+}
+
+
+// Corner-round-box
+
+#featured-box-end {
+padding: 50px 90px 50px 40px;
+  
+  .shape-parent {
+    position: relative;
+    height: 650px;
+    background: #D6EBE4;   
+
+  }
+  .top-right {
+    
+    border-top-right-radius: 10%;
+  }
+  .bottom-left {
+    border-bottom-left-radius: 10%;
+  }
+
+  .shape-child img {
+    position: absolute;
+    top: -135px;
+    left: -200px;
+    box-shadow: 48px 58px 86px rgb(0 0 0 / 0.9%);
+  }
+
+  .ms-70 {
+    margin-left: 70px;
+  }
+
+  h6 {
+    padding-bottom: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  h3 {
+    padding-top: 125px;
+    padding-bottom: 25px;
+    font-size: 45px;
+    font-family: 'Manrope', sans-serif;
+    // word-wrap: break-word;
+    // white-space: nowrap;
+    font-weight: 600;
+    line-height: 55px;
+    font-weight: 600;
+    color: #000000;
+  }
+
+  p {
+    font-family: Inter, Bangla870, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #545A58;
+    padding-bottom: 25px;
+  }
+
+  button {
+    padding: 20px 48px;
+    border-radius: 5px;
+    background-color: #F85A47;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 0px;
+  }
 
 }

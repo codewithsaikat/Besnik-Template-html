@@ -215,7 +215,7 @@ const $rootNavA = $('.cSlider--nav-2');
     }
   },
   {
-    breakpoint: 1300,
+    breakpoint: 1360,
     settings: {
       slidesToShow: 2,
       infinite: true,
