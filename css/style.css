@@ -10,7 +10,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
-  background-color: #F5F6F8;
+  background-color: #fff;
 }
 body *,
 body *:before,
@@ -449,7 +449,7 @@ textarea:focus {
 }
 
 .multi-slider--2 {
-  padding: 120px 110px 215px;
+  padding: 120px 70px 215px;
   /* Slider */
   /* Icons */
   /* ************************************************************* */
@@ -458,7 +458,7 @@ textarea:focus {
   position: relative;
   display: block;
   overflow: hidden;
-  margin-right: 40px;
+  margin-right: 50px;
   margin-bottom: 25px;
 }
 .multi-slider--2 h3 {
@@ -604,11 +604,11 @@ textarea:focus {
 }
 
 #featured-box-end {
-  padding: 50px 90px 50px 40px;
+  padding: 50px 80px 50px 40px;
 }
 #featured-box-end .shape-parent {
   position: relative;
-  height: 650px;
+  height: 577px;
   background: #D6EBE4;
 }
 #featured-box-end .top-right {
@@ -619,12 +619,9 @@ textarea:focus {
 }
 #featured-box-end .shape-child img {
   position: absolute;
-  top: -135px;
-  left: -200px;
+  top: -70px;
+  left: -235px;
   box-shadow: 48px 58px 86px rgba(0, 0, 0, 0.009);
-}
-#featured-box-end .ms-70 {
-  margin-left: 70px;
 }
 #featured-box-end h6 {
   padding-bottom: 15px;
@@ -661,6 +658,10 @@ textarea:focus {
   line-height: 23px;
   color: #FFFFFF;
   margin-top: 0px;
+}
+
+.bd-footer {
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
