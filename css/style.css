@@ -39,7 +39,10 @@ textarea:focus {
 
 .header-area {
   padding-top: 20px;
-  position: relative;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
 }
 .header-area .link {
   font-size: 17px;
@@ -61,6 +64,16 @@ textarea:focus {
   border: none;
 }
 
+.hero-section-1 {
+  padding: 164px 0px 150px;
+}
+
+.hero-section {
+  background-color: #eceaea;
+  height: 560px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .hero-section h1 {
   font-family: manrope;
   margin-top: 20px;
@@ -71,14 +84,15 @@ textarea:focus {
   line-height: 70px;
 }
 .hero-section .hero-img {
+  height: 670px;
   position: absolute;
   top: 0px;
   right: 0px;
-  z-index: -1;
-  background-size: cover;
-  background-repeat: no-repeat;
-  object-fit: contain;
+  z-index: 10;
   width: 50%;
+}
+.hero-section .text-section {
+  position: absolute;
 }
 .hero-section p {
   padding-bottom: 105px;
@@ -102,10 +116,12 @@ textarea:focus {
   border-right: solid 2px rgba(0, 0, 0, 0.1);
 }
 .hero-section .searchbox {
+  z-index: 100;
   background-color: #fff;
   padding: 5px 25px 5px 30px;
   border-radius: 0.5rem;
-  margin-top: -110px;
+  top: 500px;
+  position: absolute;
 }
 .hero-section .searchbox .form-control {
   font-size: 15px;
@@ -153,7 +169,7 @@ textarea:focus {
 }
 
 .icons-columns {
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 85px;
 }
 .icons-columns .gap {
