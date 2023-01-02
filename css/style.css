@@ -173,10 +173,10 @@ textarea:focus {
 }
 
 #icons-columns {
-  padding: 140px 28px 85px;
+  padding: 140px 28px 78px;
 }
 #icons-columns .gap {
-  gap: 70px;
+  gap: 55px;
 }
 #icons-columns .card {
   border: none;
@@ -199,6 +199,9 @@ textarea:focus {
   line-height: 19px;
   font-weight: 400;
   color: #000000;
+}
+#icons-columns .icon-square img {
+  padding-left: 40px;
 }
 
 #featured-3 .gap {

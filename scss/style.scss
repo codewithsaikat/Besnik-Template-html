@@ -250,10 +250,10 @@ textarea:focus {
 
 
 #icons-columns {
-  padding: 140px 28px 85px;
+  padding: 140px 28px 78px;
 
   .gap {
-    gap: 70px;
+    gap: 55px;
   }
 
   .card {
@@ -280,6 +280,14 @@ textarea:focus {
     line-height: 19px;
     font-weight: 400;
     color: #000000
+  }
+
+  .icon-square {
+
+    img{
+      padding-left: 40px;
+    }
+    
   }
 
 }
