@@ -36,7 +36,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
+   <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 
 <body>
@@ -65,8 +65,9 @@
             </div>
         </div>
     </div>
-    <!-- header-area-end -->
+
     <!-- Hero-section -->
+
     <div class="hero-section hero-section-1">
         <div class="container">
             <div class="row flex-lg-row-reverse  g-5 py-3">
@@ -76,19 +77,19 @@
                 <div class="col-lg-6">
                     <div class="text-section" style="z-index: 20px">
                         <h1 class="mb-3">Find the perfect <br> place to stay with <br> your family</h1>
-                    <p>Besnik is insanely flexible and amazingly easy to use.<br> This alone would be enough for a 5
-                        star rating.</p>
-                    </div>                  
+                        <p>Besnik is insanely flexible and amazingly easy to use.<br> This alone would be enough for a 5
+                            star rating.</p>
+                    </div>
                 </div>
                 <div class="col-lg-12 col-xxl-12 ">
-                    <div class="d-grid align-content-center">
+                    <div class="d-flex align-content-center flex-column-md flex-column-lg">
                         <section id="hero" style="z-index: 100">
                             <div class="searchwrapper">
-                                <div class="searchbox shadow-lg">
+                                <div class="searchbox">
                                     <div class="row">
-                                        <div class="col-md-3   d-flex justify-content-center  flex-column">
+                                        <div class="col-md-3  d-flex justify-content-center  flex-column">
                                             <div
-                                                class="search-area d-flex justify-content-center align-items-start flex-column ps-2 pe-2">
+                                                class="search-area d-flex justify-content-center align-items-start flex-column ps-2  pe-5">
                                                 <p class="location">Location</p>
                                                 <input type="text" class="form-control"
                                                     placeholder="Where are you going?">
@@ -96,24 +97,28 @@
                                         </div>
                                         <div class="col-md-2  ps-2 d-flex justify-content-center  flex-column">
                                             <div
-                                                class="search-area d-flex justify-content-center  flex-column ps-2 pe-2">
+                                                class="search-area d-flex justify-content-center  flex-column ps-2  pe-2">
                                                 <p class="location">Check in</p>
                                                 <input type="text" class="form-control" placeholder="Add dates">
                                             </div>
                                         </div>
                                         <div class="col-md-2  ps-2 d-flex justify-content-center  flex-column">
                                             <div
-                                                class="search-area d-flex justify-content-center  flex-column ps-2 pe-2">
+                                                class="search-area d-flex justify-content-center  flex-column ps-2  pe-2">
                                                 <p class="location">Check out</p>
                                                 <input type="text" class="form-control" placeholder="Add dates">
                                             </div>
                                         </div>
-                                        <div class="col-md-5 ps-2  d-flex align-items-center justify-content-between">
-                                            <h6>Rent workspace</h6>
+                                        <div class="col-md-5  ps-2">
+                                            <div class="search-button d-flex align-items-center justify-content-between flex-column-md flex-column-lg flex-column-sm">
+                                                <h6 >Rent workspace</h6>
 
-                                            <button class="lg-danger ">564 property found <img
-                                                    src="./assets/icon/Vector.png" alt="src" class="ps-3">
-                                            </button>
+                                                <button class="lg-danger d-flex justify-content-between align-items-center flex-column-md">
+                                                    <div class="text ps-3 pe-2 "> 564 property found </div>
+                                                   <img
+                                                        src="./assets/icon/Vector.png" alt="src" class="ps-4 pe-2">
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -124,15 +129,15 @@
             </div>
         </div>
     </div>
-    <!-- Hero-section-end -->
+
     <!-- column and icons -->
-    <div class="icons-columns">
+  
         <div class="section-padding">
-            <div class="container">
+            <div class="container" id="icons-columns">
                 <div class="row  gap py-5 row-cols-1 row-cols-lg-3">
                     <div class="col d-flex align-items-center">
                         <div>
-                            <img src="./assets/icon/Group 7.png" class="img-ico" alt="fdd">
+                            <img src="./assets/icon/Group 7.png" class="img-ico ps-1" alt="fdd">
                             <h3 class="">Want to sell a home <br>
                                 in Besnik</h3>
                             <p>Call the broker for a quote!</p>
@@ -144,7 +149,7 @@
                     </div>
                     <div class="col d-flex align-items-center">
                         <div>
-                            <img src="./assets/icon/Group 8.png" class="img-ico" alt="fdd">
+                            <img src="./assets/icon/Group 8.png" class="img-ico ps-1" alt="fdd">
                             <h3 class="">What is the value of your home?</h3>
                             <p>Calculate the estimated value!</p>
                         </div>
@@ -156,8 +161,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- column and icons -end -->
+    
+
 
     <!-- Works icons -->
 
@@ -201,6 +206,7 @@
     </div>
 
     <!-- Explore-Section-slider -->
+
     <div class="section-padding multi-slider">
         <div class="container ">
             <div class="row">
@@ -439,6 +445,7 @@
     </div>
 
     <!-- Logo-carousel -->
+
     <div class="section-padding logo-carousel">
         <div class="container">
             <div class="row">
@@ -650,24 +657,31 @@
                     <ul class="list-unstyled">
                         <li class="mb-2"><a href="/" class="nav-link px-2 text-dark">Home</a></li>
                         <li class="mb-2 link-dark"><a href="/docs/5.2/" class="nav-link px-2 text-dark">Pricing</a></li>
-                        <li class="mb-2"><a href="/docs/5.2/examples/" class="nav-link px-2 text-dark">About</a></li>                    
+                        <li class="mb-2"><a href="/docs/5.2/examples/" class="nav-link px-2 text-dark">About</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-lg-2 mb-3">
                     <h5>Connect</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><a href="/docs/5.2/getting-started/" class="nav-link  text-dark">Our Community</a></li>
-                        <li class="mb-2"><a href="/docs/5.2/examples/starter-template/" class="nav-link  text-dark">Facebook</a></li>
-                        <li class="mb-2"><a href="/docs/5.2/getting-started/webpack/" class="nav-link  text-dark">Blog</a></li>
-                        <li class="mb-2"><a href="/docs/5.2/getting-started/parcel/" class="nav-link text-dark">Contact Us</a></li>
+                        <li class="mb-2"><a href="/docs/5.2/getting-started/" class="nav-link  text-dark">Our
+                                Community</a></li>
+                        <li class="mb-2"><a href="/docs/5.2/examples/starter-template/"
+                                class="nav-link  text-dark">Facebook</a></li>
+                        <li class="mb-2"><a href="/docs/5.2/getting-started/webpack/"
+                                class="nav-link  text-dark">Blog</a></li>
+                        <li class="mb-2"><a href="/docs/5.2/getting-started/parcel/" class="nav-link text-dark">Contact
+                                Us</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-lg-2 mb-3">
                     <h5>Experts</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap" class="nav-l text-dark">Apply as an Expert</a></li>
-                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev" class="nav-l text-dark">Vetting Guidelines</a></li>
-                        <li class="mb-2"><a href="https://github.com/twbs/icons" class="nav-l text-dark">Expert Sign In</a></li>
+                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap" class="nav-l text-dark">Apply as an
+                                Expert</a></li>
+                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev"
+                                class="nav-l text-dark">Vetting Guidelines</a></li>
+                        <li class="mb-2"><a href="https://github.com/twbs/icons" class="nav-l text-dark">Expert Sign
+                                In</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-lg-3  mb-3">
@@ -679,8 +693,8 @@
                         <li class="pe-2"><i><img src="./assets/icon/Star 11.png" alt="11111"></i></li>
                     </ul>
                     <ul class="list-unstyled  text-dark">
-                        4190 jobs completed <br/>
-                        successfully with 97.4% <br/> 5 star reviews
+                        4190 jobs completed <br />
+                        successfully with 97.4% <br /> 5 star reviews
                     </ul>
                 </div>
             </div>

@@ -1,31 +1,57 @@
-@media only screen and (min-width: 1800px) and (max-width: 2000px) {
-    
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+    .hero-section .searchbox {
+        width: 75%;
+    }
 }
 
-@media only screen and (min-width: 1400px) and (max-width: 1800px) {
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
 
-   
+    .hero-section .searchbox {
+        width: 85%;
+    }
 
 
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
 
-   
+    .hero-section .searchbox {
+        width: 87%;
+    }
 
 }
 
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-   
+    .hero-section .searchbox {
+        width: 90%;
+    }
 
 }
 
 /*Medium small layout: 767px. */
 @media only screen and (min-width: 767px) and (max-width: 992px) {
    
+    .hero-section .hero-img {
+        display: none;
+    }
 
+    .search-button {
+        flex-direction: column;
+    }
 
+    .hero-section .search-area {
+        padding-left: 0px;
+    }
+
+    .hero-section .searchbox {
+    
+        margin-right: 0px;
+    }
+
+    .hero-section .searchbox {
+        width: 85%;
+    }
 }
 
 
@@ -33,6 +59,7 @@
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
+    
 
 }
 
@@ -40,6 +67,18 @@
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
 
+    .hero-section .hero-img {
+        display: none;
+    }
+    .hero-section .searchbox {
+        
+        top: 557px;
+        
+    }
+
+    .hero-section .searchbox {
     
+        margin-right: 0px;
+    }
 
 }

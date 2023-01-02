@@ -55,7 +55,7 @@ textarea:focus {
 }
 
 .header-area {
-  padding-top: 20px;
+  padding-top: 10px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -80,10 +80,13 @@ textarea:focus {
   }
 
   .btn {
-    height: 50px;
+    height: 49px;
     width: 120px;
     background-color: #159FED;
     border: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
   }
 }
 
@@ -91,18 +94,18 @@ textarea:focus {
 
 // Hero-Section
 .hero-section-1 {
-  padding: 164px 0px 150px;
+  padding: 135px 80px 150px;
 }
-.hero-section { 
-  background-color: #eceaea;
+
+.hero-section {
+  background-color: #F1F1F1;
   height: 560px;
   background-repeat: no-repeat;
   background-position: center;
-  
-  
+
+
   h1 {
     font-family: manrope;
-    margin-top: 20px;
     font-size: 60px;
     font-weight: 700;
     color: #000000;
@@ -119,12 +122,13 @@ textarea:focus {
     width: 50%;
 
   }
+
   .text-section {
-    position: absolute;
+    // padding-left: 30px;
   }
 
   p {
-    padding-bottom: 105px;
+    
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -138,7 +142,7 @@ textarea:focus {
 
 .hero-section {
 
-  // overflow: hidden;
+ 
 
   .location {
     font-size: 13px;
@@ -153,26 +157,34 @@ textarea:focus {
 
   .search-area {
     border-right: solid 2px rgba(0, 0, 0, 0.10);
+    &.search-area-2 {
+      // padding: 0px 75px 0px 10px;
+    }
+    &.search-area-3 {
+      // padding: 0px 75px 0px 10px;
+    }
   }
 
-  // .d-grid {
-  //   gap: 20px;
-  // }
 
   .searchbox {
     z-index: 100;
     background-color: #fff;
-    padding: 5px 25px 5px 30px;
+    padding: 5px 25px 5px 60px;
     border-radius: 0.50rem;
-    top: 500px;
+    top: 515px;
     position: absolute;
-    
+    box-shadow: 0px 25px 100px rgb(0 0 0 / 5%);
+    border: 1px solid #F5F5F5;
+    // margin-right: 110px;
+    width: 80%;
+
 
     .form-control {
       font-size: 15px;
       line-height: 19px;
       font-weight: 400;
       font-family: 'Inter', sans-serif;
+      color: #B7B7B7
 
     }
   }
@@ -215,14 +227,17 @@ textarea:focus {
     .lg-danger {
       color: #fff !important;
       display: block;
-      width: 225px;
-      height: 56px;
+      
+      height: 54px;
       font-size: 16px;
-      line-height: 25px;
-      font-weight: 500;
-      background: #df1919 !important;
+      line-height: 20px;
+      font-weight: 400;
+      background: #F85A47;
       border-radius: 5px;
       border: none;
+      .text {
+        white-space: nowrap;
+      }
 
     }
   }
@@ -234,11 +249,8 @@ textarea:focus {
 
 
 
-.icons-columns {
-  padding-top: 200px;
-  padding-bottom: 85px;
-
-
+#icons-columns {
+  padding: 140px 28px 85px;
 
   .gap {
     gap: 70px;
@@ -258,7 +270,7 @@ textarea:focus {
     font-weight: 500;
     font-family: 'Inter', sans-serif;
     line-height: 45px;
-    margin-top: 5px;
+    margin-top: 4px;
     margin-bottom: 28px;
   }
 
@@ -427,7 +439,6 @@ textarea:focus {
     position: absolute;
     z-index: 1000;
     top: -120px;
-
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -698,12 +709,13 @@ textarea:focus {
     // margin-left: -38px;
     margin-right: 50px;
     margin-bottom: 25px;
-    
+
   }
+
   .slider-top-left {
     // margin-left: -40px;
   }
-  
+
   h3 {
     padding-bottom: 5px;
     // padding-left: 40px;
@@ -941,18 +953,20 @@ textarea:focus {
 // Corner-round-box
 
 #featured-box-end {
-padding: 50px 80px 50px 40px;
-  
+  padding: 50px 80px 50px 40px;
+
   .shape-parent {
     position: relative;
     height: 577px;
-    background: #D6EBE4;   
+    background: #D6EBE4;
 
   }
+
   .top-right {
-    
+
     border-top-right-radius: 10%;
   }
+
   .bottom-left {
     border-bottom-left-radius: 10%;
   }
@@ -1016,5 +1030,5 @@ padding: 50px 80px 50px 40px;
 
 .bd-footer {
   background-color: #fff;
-  
+
 }

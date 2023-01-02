@@ -38,7 +38,7 @@ textarea:focus {
 }
 
 .header-area {
-  padding-top: 20px;
+  padding-top: 10px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -58,25 +58,27 @@ textarea:focus {
   color: #1F2B6C;
 }
 .header-area .btn {
-  height: 50px;
+  height: 49px;
   width: 120px;
   background-color: #159FED;
   border: none;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 .hero-section-1 {
-  padding: 164px 0px 150px;
+  padding: 135px 80px 150px;
 }
 
 .hero-section {
-  background-color: #eceaea;
+  background-color: #F1F1F1;
   height: 560px;
   background-repeat: no-repeat;
   background-position: center;
 }
 .hero-section h1 {
   font-family: manrope;
-  margin-top: 20px;
   font-size: 60px;
   font-weight: 700;
   color: #000000;
@@ -91,11 +93,7 @@ textarea:focus {
   z-index: 10;
   width: 50%;
 }
-.hero-section .text-section {
-  position: absolute;
-}
 .hero-section p {
-  padding-bottom: 105px;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -118,16 +116,20 @@ textarea:focus {
 .hero-section .searchbox {
   z-index: 100;
   background-color: #fff;
-  padding: 5px 25px 5px 30px;
+  padding: 5px 25px 5px 60px;
   border-radius: 0.5rem;
-  top: 500px;
+  top: 515px;
   position: absolute;
+  box-shadow: 0px 25px 100px rgba(0, 0, 0, 0.05);
+  border: 1px solid #F5F5F5;
+  width: 80%;
 }
 .hero-section .searchbox .form-control {
   font-size: 15px;
   line-height: 19px;
   font-weight: 400;
   font-family: "Inter", sans-serif;
+  color: #B7B7B7;
 }
 .hero-section .searchbox .col-md-2,
 .hero-section .searchbox .col-md-2,
@@ -158,39 +160,40 @@ textarea:focus {
 .hero-section .searchbox .lg-danger {
   color: #fff !important;
   display: block;
-  width: 225px;
-  height: 56px;
+  height: 54px;
   font-size: 16px;
-  line-height: 25px;
-  font-weight: 500;
-  background: #df1919 !important;
+  line-height: 20px;
+  font-weight: 400;
+  background: #F85A47;
   border-radius: 5px;
   border: none;
 }
-
-.icons-columns {
-  padding-top: 200px;
-  padding-bottom: 85px;
+.hero-section .searchbox .lg-danger .text {
+  white-space: nowrap;
 }
-.icons-columns .gap {
+
+#icons-columns {
+  padding: 140px 28px 85px;
+}
+#icons-columns .gap {
   gap: 70px;
 }
-.icons-columns .card {
+#icons-columns .card {
   border: none;
   background-color: transparent;
 }
-.icons-columns .img-ico {
+#icons-columns .img-ico {
   margin-top: -40px;
 }
-.icons-columns h3 {
+#icons-columns h3 {
   font-size: 32px;
   font-weight: 500;
   font-family: "Inter", sans-serif;
   line-height: 45px;
-  margin-top: 5px;
+  margin-top: 4px;
   margin-bottom: 28px;
 }
-.icons-columns p {
+#icons-columns p {
   font-family: "Inter", sans-serif;
   font-size: 15px;
   line-height: 19px;
