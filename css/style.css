@@ -212,6 +212,7 @@ textarea:focus {
   font-size: 40px;
   line-height: 55px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 #featured-3 h3 {
   font-family: "Manrope", sans-serif;
@@ -228,13 +229,13 @@ textarea:focus {
 }
 
 .multi-slider {
-  padding: 0px 50px 150px;
+  padding: 70px 50px 150px;
   /* Slider */
   /* Icons */
   /* ************************************************************* */
 }
 .multi-slider h3 {
-  padding-bottom: 46px;
+  padding-bottom: 58px;
   padding-left: 0px;
   font-family: "Manrope", sans-serif;
   font-weight: 600;
@@ -250,15 +251,18 @@ textarea:focus {
   font-size: 18px;
   font-weight: 500;
   line-height: 21px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: #666666;
 }
 .multi-slider .slick-slide.is-active h4 {
-  color: #c00;
+  color: #F85A47;
 }
 .multi-slider .slick-slide.is-active h4 span {
   font-size: 18px;
   font-family: "Inter", sans-serif;
   line-height: 21px;
-  font-weight: 600;
+  font-weight: 500;
   white-space: nowrap;
   text-align: start;
   display: inline-block;
@@ -299,7 +303,7 @@ textarea:focus {
   right: 250px;
   position: absolute;
   z-index: 1000;
-  top: -120px;
+  top: -75px;
   height: 60px;
   width: 60px;
   border-radius: 50%;
@@ -312,7 +316,7 @@ textarea:focus {
   right: 400px;
   position: absolute;
   z-index: 1000;
-  top: -120px;
+  top: -75px;
   border: none;
   height: 60px;
   width: 60px;
@@ -329,6 +333,9 @@ textarea:focus {
   top: 50%;
 }
 
+#featured-box {
+  padding: 94px 0px 50px;
+}
 #featured-box .shape-parent {
   position: relative;
   height: 650px;
@@ -337,11 +344,11 @@ textarea:focus {
 #featured-box .shape-child img {
   position: absolute;
   top: -135px;
-  left: -160px;
+  left: -155px;
   box-shadow: 48px 58px 86px rgba(0, 0, 0, 0.009);
 }
 #featured-box .ms-70 {
-  margin-left: 70px;
+  margin-left: 80px;
 }
 #featured-box h6 {
   padding-bottom: 15px;
@@ -351,7 +358,7 @@ textarea:focus {
   line-height: 20px;
 }
 #featured-box h3 {
-  padding-top: 95px;
+  padding-top: 83px;
   padding-bottom: 25px;
   font-size: 31px;
   font-family: "Manrope", sans-serif;
@@ -359,8 +366,11 @@ textarea:focus {
   font-weight: 600;
   color: #000000;
 }
+#featured-box .text-start {
+  margin: 0px 37px 0px 0px;
+}
 #featured-box .table > :not(caption) > * > * {
-  padding: 5px 75px;
+  padding: 5px 50px;
   background-color: none;
   border-bottom-width: 0px;
   box-shadow: none;
@@ -376,7 +386,7 @@ textarea:focus {
   font-weight: 400;
   line-height: 24px;
   color: #545A58;
-  padding-bottom: 25px;
+  padding-bottom: 41px;
 }
 #featured-box p {
   font-family: "Inter", sans-serif;
@@ -387,15 +397,15 @@ textarea:focus {
   padding-bottom: 25px;
 }
 #featured-box button {
-  padding: 13px 0px;
+  padding: 16px 48px;
   border-radius: 5px;
   background-color: #F85A47;
+  margin-top: 10px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
-  margin-top: -10px;
 }
 
 .testimonial {
@@ -471,7 +481,7 @@ textarea:focus {
 }
 
 .multi-slider--2 {
-  padding: 120px 70px 215px;
+  padding: 155px 70px 200px;
   /* Slider */
   /* Icons */
   /* ************************************************************* */
@@ -626,7 +636,7 @@ textarea:focus {
 }
 
 #featured-box-end {
-  padding: 50px 80px 50px 40px;
+  padding: 0px 80px 50px 40px;
 }
 #featured-box-end .shape-parent {
   position: relative;
@@ -641,8 +651,8 @@ textarea:focus {
 }
 #featured-box-end .shape-child img {
   position: absolute;
-  top: -70px;
-  left: -235px;
+  top: -60px;
+  left: -250px;
   box-shadow: 48px 58px 86px rgba(0, 0, 0, 0.009);
 }
 #featured-box-end h6 {
@@ -654,7 +664,7 @@ textarea:focus {
 }
 #featured-box-end h3 {
   padding-top: 125px;
-  padding-bottom: 25px;
+  padding-bottom: 16px;
   font-size: 45px;
   font-family: "Manrope", sans-serif;
   font-weight: 600;
@@ -668,12 +678,12 @@ textarea:focus {
   font-weight: 400;
   line-height: 30px;
   color: #545A58;
-  padding-bottom: 25px;
+  padding-bottom: 33px;
 }
 #featured-box-end button {
   padding: 20px 48px;
   border-radius: 5px;
-  background-color: #F85A47;
+  background-color: #F77E53;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 19px;
@@ -683,7 +693,52 @@ textarea:focus {
 }
 
 .bd-footer {
+  padding: 44px 60px 30px;
   background-color: #fff;
+}
+.bd-footer h5 {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: #101130;
+  padding-bottom: 22px;
+}
+.bd-footer ul li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Inter", sans-serif;
+  color: #101130;
+}
+.bd-footer ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Inter", sans-serif;
+  color: #101130;
+  padding-bottom: 15px;
+}
+.bd-footer .star {
+  padding: 15px 0px;
+}
+.bd-footer .footer-para {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Inter", sans-serif;
+  color: #101130;
+  padding-bottom: 26px;
+}
+.bd-footer .footer-end {
+  padding: 29px 0px;
+}
+.bd-footer .para-end {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 17px;
+  font-family: "Inter", sans-serif;
+  color: #101130;
 }
 
 /*# sourceMappingURL=style.css.map */
