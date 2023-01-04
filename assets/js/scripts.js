@@ -3,7 +3,7 @@
   $(document).ready(function () {
 
     $('.logo-list').slick({
-      // autoplay: true,     
+      autoplay: true,     
       infinite: true,
       slidesToShow: 5,
       slidesToScroll: 1,
@@ -71,7 +71,7 @@ const $rootNav = $('.cSlider--nav');
  $rootSingle.slick({
 	slide: '.cSlider__item',
  	slidesToShow: 4,
-  //  autoplay: true,
+   autoplay: true,
  	slidesToScroll: 1,
  	arrows: true,
  	fade: false,
@@ -154,7 +154,7 @@ const $rootNav = $('.cSlider--nav');
      vertical: true,
  		focusOnSelect: false,
  		infinite: true,
-    //  autoplay: true,
+     autoplay: true,
  		responsive: [{
  			breakpoint: 1024,
  			settings: {
@@ -213,7 +213,7 @@ const $rootNavA = $('.cSlider--nav-2');
  $rootSingleA.slick({
 	slide: '.cSlider__item',
  	slidesToShow: 3,
-  //  autoplay: true,
+   autoplay: true,
  	slidesToScroll: 1,
  	arrows: false,
  	fade: false,
@@ -293,7 +293,7 @@ const $rootNavA = $('.cSlider--nav-2');
     //  autoplay: {
     //   delay: 5000,
     // },
-    // autoplay: true,
+    autoplay: true,
  		dots: false,
      arrows: false,
     
