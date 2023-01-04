@@ -69,10 +69,12 @@
     #featured-box .ms-70 {
         margin-left: 0px;
     }
+
     .multi-slider--2 .btn-lg {
-        
+
         margin-right: 0px;
     }
+
     #featured-box-end .shape-child img {
         display: none;
     }
@@ -81,7 +83,67 @@
 
 
 /* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Layout: 320px. */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .hero-section h1 {
+        font-family: manrope;
+        font-size: 35px;
+        font-weight: 700;
+        color: #000000;
+        font-family: manrope;
+        line-height: 40px;
+        padding-top: 60px;
+        white-space: nowrap;
+        font-family: manrope, Bangla696, sans-serif;
+        margin-left: -55px;
+    }
+
+    .multi-slider .cSlider--nav .slick-list {
+        margin: -40px;
+    }
+
+    .hero-section p {
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 32px;
+        color: #717171;
+    }
+
+    .hero-section .searchbox {
+        left: 42px;
+    }
+
+    .hero-section .searchbox .lg-danger {
+
+        position: absolute;
+        top: 252px;
+        left: 40px;
+
+    }
+    
+    .shape-parent {
+        padding: 0px 10px;
+    }
+    #featured-box {
+        padding: 4px 0px 50px;
+    }
+
+    #icons-columns {
+        padding: 400px 53px 91px;
+    }
+    .testimonial {
+        padding: 0px;
+    }
+    #featured-box-end {
+        padding: 0px 19px 36px 19px;
+    }
+
+    .multi-slider--2 {
+        padding: 155px 8px 200px;
+    }
 
 }
 
@@ -100,36 +162,36 @@
     }
 
     .hero-section .searchbox {
-
+        padding: 9px 11px 5px 13px;
         margin-right: 0px;
     }
+
+
     
-
-
-
-    #icons-columns {
-        padding: 305px 28px 78px;
-    }
 
     #featured-box .shape-child img {
         display: none;
     }
+
     #featured-box .ms-70 {
         margin-left: 0px;
     }
 
     .multi-slider--2 .btn-lg {
-        
+
         margin-right: 0px;
     }
 
     .multi-slider--2 .btn-lg {
-        
+
         margin-right: 0px;
     }
 
     #featured-box-end .shape-child img {
         display: none;
     }
+   
 
+    
+    
 }

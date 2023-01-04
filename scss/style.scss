@@ -252,10 +252,10 @@ textarea:focus {
 
 
 #icons-columns {
-  padding: 140px 28px 78px;
+  padding: 140px 50px 78px;
 
   .gap {
-    gap: 55px;
+    gap: 70px;
   }
 
   .card {
@@ -274,6 +274,7 @@ textarea:focus {
     line-height: 45px;
     margin-top: 4px;
     margin-bottom: 28px;
+    white-space: nowrap;
   }
 
   p {
@@ -297,6 +298,8 @@ textarea:focus {
 // Works icons
 
 #featured-3 {
+  padding: 50px 0px 50px;
+
   .gap {
     gap: 0px 0px;
   }
@@ -405,10 +408,13 @@ textarea:focus {
 
   /* Slider */
   .slick-list {
+   
     .slick-loading & {
       background: #fff slick-image-url("ajax-loader.gif") center center no-repeat;
     }
   }
+
+
 
   /* Icons */
   @if $slick-font-family=="slick" {
@@ -435,7 +441,11 @@ textarea:focus {
       display: block;
     }
   }
-
+  // .cSlider--nav {
+  //   .slick-list {
+  //     margin: -40px;
+  //   }
+  // }
   .cSlider--single {
     margin-right: -200px;
 
