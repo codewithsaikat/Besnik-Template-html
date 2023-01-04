@@ -131,7 +131,7 @@ const $rootNav = $('.cSlider--nav');
     breakpoint: 360,
     settings: {
       slidesToShow: 1,
-    
+      slidesToScroll: 1,
  }
   }],
  	cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
@@ -165,7 +165,7 @@ const $rootNav = $('.cSlider--nav');
  		}, {
  			breakpoint: 640,
  			settings: {
- 				slidesToShow: 2,
+ 				slidesToShow: 4,
  				slidesToScroll: 1,
 			}
  		},, {

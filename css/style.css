@@ -251,13 +251,14 @@ textarea:focus {
   color: #666666;
   text-align: start;
   padding: 20px 0px;
-  margin: 0.5rem;
   font-size: 18px;
   font-weight: 500;
   line-height: 21px;
   font-weight: 500;
   font-family: "Inter", sans-serif;
   color: #666666;
+  font-family: Inter, Bangla756, sans-serif;
+  margin-bottom: 25px;
 }
 .multi-slider .slick-slide.is-active h4 {
   color: #F85A47;
