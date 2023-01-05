@@ -93,7 +93,7 @@ textarea:focus {
   z-index: 10;
   width: 50%;
 }
-.hero-section p {
+.hero-section .header-p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -375,7 +375,7 @@ textarea:focus {
   border-collapse: separate;
   margin: 0;
   padding: 0;
-  width: 86%;
+  width: 81%;
   table-layout: fixed;
 }
 #featured-box .table-1 {
@@ -388,24 +388,26 @@ textarea:focus {
   font-size: 1.5em;
   margin: 0.5em 0 0.75em;
 }
-#featured-box table th {
-  padding: 20px 0px;
-}
 #featured-box table td {
   padding: 0px 0px;
-  padding-bottom: 20px;
+  padding-bottom: 18px;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #545A58;
 }
 #featured-box table th {
-  font-size: 0.85em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  padding: 17px 0px;
+  color: #000000;
 }
 @media screen and (max-width: 600px) {
   #featured-box table {
     border: 0;
-  }
-  #featured-box table caption {
-    font-size: 1.3em;
   }
   #featured-box table thead {
     border: none;
@@ -418,12 +420,10 @@ textarea:focus {
     width: 1px;
   }
   #featured-box table tr {
-    border-bottom: 3px solid #ddd;
     display: block;
     margin-bottom: 0.625em;
   }
   #featured-box table td {
-    border-bottom: 1px solid #ddd;
     display: block;
     font-size: 0.8em;
     text-align: right;
@@ -440,17 +440,17 @@ textarea:focus {
 }
 #featured-box p {
   font-family: "Inter", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 24px;
   color: #545A58;
   padding-bottom: 25px;
 }
 #featured-box button {
-  padding: 16px 48px;
+  padding: 16px 34px;
   border-radius: 5px;
   background-color: #F85A47;
-  margin-top: 10px;
+  margin-top: 36px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -536,12 +536,18 @@ textarea:focus {
   /* Icons */
   /* ************************************************************* */
 }
-.multi-slider--2 .slick-list {
+.multi-slider--2 .cSlider--nav-2 .slick-list {
   position: relative;
   display: block;
   overflow: hidden;
   margin-right: 50px;
   margin-bottom: 25px;
+}
+.multi-slider--2 .cSlider--single-2 .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin-right: 70px;
 }
 .multi-slider--2 h3 {
   padding-bottom: 5px;

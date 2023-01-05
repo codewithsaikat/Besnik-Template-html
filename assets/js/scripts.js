@@ -107,7 +107,7 @@ const $rootNav = $('.cSlider--nav');
     }
   },
   {
-    breakpoint: 760,
+    breakpoint: 780,
     settings: {
       slidesToShow: 1,
       infinite: true,
@@ -162,7 +162,8 @@ const $rootNav = $('.cSlider--nav');
          infinite: true,
  				slidesToScroll: 1,
  			}
- 		}, {
+ 		},
+    , {
  			breakpoint: 640,
  			settings: {
  				slidesToShow: 4,
@@ -235,7 +236,7 @@ const $rootNavA = $('.cSlider--nav-2');
   {
     breakpoint: 1360,
     settings: {
-      slidesToShow: 2,
+      slidesToShow: 3,
       infinite: true,
       slidesToScroll: 1,
     }
@@ -308,6 +309,15 @@ const $rootNavA = $('.cSlider--nav-2');
  				slidesToScroll: 1,
  			}
  		}, 
+     {
+      breakpoint: 790,
+      settings: {
+        slidesToShow: 2,
+        infinite: true,
+        slidesToScroll: 1,
+      }
+    },
+    , 
      {
       breakpoint: 740,
       settings: {
