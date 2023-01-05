@@ -106,12 +106,51 @@
 
     .hero-section p {
         font-family: "Inter", sans-serif;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 32px;
         color: #717171;
+        font-family: Inter, Bangla650, sans-serif;
+        word-break: break-all;
+       
+    }
+    .hero-section h1 {
+        font-family: manrope;
+        font-size: 37px;
+        font-weight: 700;
+        color: #000000;
+        font-family: manrope;
+        line-height: 40px;
+        padding-top: 73px;
+        white-space: nowrap;
+        font-family: manrope, Bangla696, sans-serif;
+        margin-left: -55px;
+        padding-bottom: 10px;
+    }
+    #featured-box-end h3 {
+        padding-top: 100px;
+        padding-bottom: 16px;
+        font-size: 34px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        line-height: 55px;
+        font-weight: 600;
+        color: #000000;
     }
 
+    #featured-box-end p {
+        font-size: 15px;
+        padding-bottom: 50px;
+    }
+
+    .hero-section {
+       
+        height: 610px;
+       
+    }
+    #icons-columns {
+        padding: 422px 18px 91px;
+    }
     .hero-section .searchbox {
         left: 42px;
     }
@@ -132,7 +171,12 @@
     }
 
     #icons-columns {
-        padding: 400px 53px 91px;
+        padding: 450px 15px 91px;
+    }
+    #icons-columns .icon-square img {
+        
+        margin-left: -70px;
+        margin-top: 40px;
     }
     .testimonial {
         padding: 0px;
@@ -151,6 +195,21 @@
         font-size: 16px;
        
     }
+
+    .hero-section .searchbox {
+        margin-top: 80px;
+    }
+
+    .hero-section .searchbox h6 {
+        margin: 0px 74px;
+    }
+
+    .hero-section .searchbox .lg-danger {
+        position: absolute;
+        top: 252px;
+        left: 0px;
+    }
+
 
 }
 

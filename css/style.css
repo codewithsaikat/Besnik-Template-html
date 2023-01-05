@@ -381,6 +381,9 @@ textarea:focus {
 #featured-box .table-1 {
   padding-bottom: 50px;
 }
+#featured-box .spaceUnder {
+  padding-bottom: 40px;
+}
 #featured-box table caption {
   font-size: 1.5em;
   margin: 0.5em 0 0.75em;
@@ -390,6 +393,7 @@ textarea:focus {
 }
 #featured-box table td {
   padding: 0px 0px;
+  padding-bottom: 20px;
 }
 #featured-box table th {
   font-size: 0.85em;
