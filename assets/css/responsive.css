@@ -242,14 +242,15 @@
 
     .hero-section .header-p {
         font-family: "Inter", sans-serif;
-        font-size: 16px;
+        font-size: 14px;
+        margin: 0 auto;
         font-weight: 400;
         line-height: 35px;
         color: #717171;
         text-align: center;
         font-family: Inter, Bangla650, sans-serif;
-        word-break: break-all;
-        margin: 0px -42px;
+        /* word-break: break-all;
+        margin: 0px -42px; */
        
     }
     .hero-section h1 {
@@ -352,7 +353,7 @@
 
     .multi-slider--2 p {
         margin-bottom: 40px;
-        font-size: 13px;
+        font-size: 15px;
     }
     
     #featured-box-end button {
@@ -448,7 +449,7 @@
 
     #featured-box p {
         font-family: "Inter", sans-serif;
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 400;
         line-height: 25px;
         color: #545A58;
