@@ -372,22 +372,24 @@ textarea:focus {
   color: #000000;
 }
 #featured-box table {
-  border-collapse: collapse;
+  border-collapse: separate;
   margin: 0;
   padding: 0;
   width: 86%;
   table-layout: fixed;
 }
+#featured-box .table-1 {
+  padding-bottom: 50px;
+}
 #featured-box table caption {
   font-size: 1.5em;
   margin: 0.5em 0 0.75em;
 }
-#featured-box table tr {
-  padding: 0.35em;
-}
-#featured-box table th,
-#featured-box table td {
+#featured-box table th {
   padding: 20px 0px;
+}
+#featured-box table td {
+  padding: 0px 0px;
 }
 #featured-box table th {
   font-size: 0.85em;
