@@ -371,27 +371,66 @@ textarea:focus {
   font-weight: 600;
   color: #000000;
 }
-#featured-box .text-start {
-  margin: 0px 37px 0px 0px;
+#featured-box table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 86%;
+  table-layout: fixed;
 }
-#featured-box .table > :not(caption) > * > * {
-  padding: 5px 50px;
-  background-color: none;
-  border-bottom-width: 0px;
-  box-shadow: none;
-  padding-left: 0px;
+#featured-box table caption {
+  font-size: 1.5em;
+  margin: 0.5em 0 0.75em;
 }
-#featured-box .table-responsive {
-  overflow-x: inherit;
-  -webkit-overflow-scrolling: touch;
+#featured-box table tr {
+  padding: 0.35em;
 }
-#featured-box .tbl {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #545A58;
-  padding-bottom: 41px;
+#featured-box table th,
+#featured-box table td {
+  padding: 20px 0px;
+}
+#featured-box table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 600px) {
+  #featured-box table {
+    border: 0;
+  }
+  #featured-box table caption {
+    font-size: 1.3em;
+  }
+  #featured-box table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  #featured-box table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+  #featured-box table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+  }
+  #featured-box table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  #featured-box table td:last-child {
+    border-bottom: 0;
+  }
 }
 #featured-box p {
   font-family: "Inter", sans-serif;
