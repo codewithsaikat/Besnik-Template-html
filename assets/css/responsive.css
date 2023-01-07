@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1600px) and (max-width: 1800px) {
     .hero-section .searchbox {
-        width: 75%;
+        width: 77%;
     }
 }
 
@@ -22,7 +22,7 @@
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
 
     .hero-section .searchbox {
-        width: 87%;
+        width: 85%;
     }
 
     .multi-slider--2 .cSlider--single-2 .slick-list {
@@ -39,7 +39,7 @@
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .hero-section .searchbox {
-        width: 90%;
+        width: 79%;
     }
 
     #icons-columns .gap {

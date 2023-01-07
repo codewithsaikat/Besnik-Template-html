@@ -122,7 +122,6 @@ textarea:focus {
   position: absolute;
   box-shadow: 0px 25px 100px rgba(0, 0, 0, 0.05);
   border: 1px solid #F5F5F5;
-  width: 80%;
 }
 .hero-section .searchbox .form-control {
   font-size: 15px;
@@ -697,7 +696,7 @@ textarea:focus {
 #featured-box-end .shape-parent {
   position: relative;
   height: 577px;
-  background: #D6EBE4;
+  background: #EDF3FF;
 }
 #featured-box-end .top-right {
   border-top-right-radius: 10%;
